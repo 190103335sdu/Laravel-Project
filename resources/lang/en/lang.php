@@ -1,0 +1,30 @@
+<?php
+    return [
+        'Women'=>'Women',
+        'Men'=>'Men',
+        'Kids'=>'Kids',
+        'About Us'=>'About Us',
+        'Contact'=>'Contact',
+        'Right time for Sagat Shop.'=>'Right time for Sagat Shop.',
+        'Welcome!'=>'Welcome!',
+        'Popular Products'=>'Popular Products',
+        'Classic Simple Vintage Two-pin Calendar'=>'Classic Simple Vintage Two-pin Calendar',
+        'In'=>'In',
+        'Yazole Womens Leather Strap Watch'=>'Yazole Womens Leather Strap Watch',
+        'Tectores 2018 Fashion Watch'=>'Tectores 2018 Fashion Watch',
+        'Silicone Quartz Fashion Watch'=>'Silicone Quartz Fashion Watch',
+        'Casio for men, modern'=>'Casio for men, modern',
+        'Fossil Analog Black Dial'=>'Fossil Analog Black Dial',
+        'load more'=>'load more',
+        'Mens watches'=>'Mens watches',
+        'Womens watches'=>'Womens watches',
+        'A Watch is not about telling time,'=>'A Watch is not about telling time,',
+        'it is about relationship with time'=>'it is about relationship with time',
+        'Support'=>'Support',
+        'Customer Service'=>'Customer Service',
+        'Privacy Policy'=>'Privacy Policy',
+        'Terms and Conditions'=>'Terms and Conditions',
+        'Stay in Touch'=>'Stay in Touch',
+        'Social'=>'Social'
+    ];
+?>

@@ -1,0 +1,30 @@
+<?php
+    return [
+        'Women'=>'Женщины',
+        'Men'=>'Мужчины',
+        'Kids'=>'Дети',
+        'About Us'=>'Про нас',
+        'Contact'=>'Контакты',
+        'Right time for Sagat Shop.'=>'Самое время для покупки часов в Sagat.',
+        'Welcome!'=>'Добро пожаловать!',
+        'Popular Products'=>'Лучшие товары',
+        'Classic Simple Vintage Two-pin Calendar'=>'Классический Простой Винтажный Двухконтактный Календарь',
+        'In'=>'В',
+        'Yazole Womens Leather Strap Watch'=>'Женские часы с Кожаным Ремешком Yazole',
+        'Tectores 2018 Fashion Watch'=>'Модные часы Tectores 2018',
+        'Silicone Quartz Fashion Watch'=>'Силиконовые Кварцевые Модные часы',
+        'Casio for men, modern'=>'Casio для мужчин, Модерн',
+        'Fossil Analog Black Dial'=>'Fossil Аналоговый Черный Циферблат',
+        'load more'=>'Дальше',
+        'Mens watches'=>'Мужские часы',
+        'Womens watches'=>'Женские часы',
+        'A Watch is not about telling time,'=>'Часы предназначены не для определения времени,',
+        'it is about relationship with time'=>'а для определения отношений со временем',
+        'Support'=>'Помощь',
+        'Customer Service'=>'Контактный сервис',
+        'Privacy Policy'=>'Политика конфиденциальности',
+        'Terms and Conditions'=>'Сроки и Условия',
+        'Stay in Touch'=>'Оставайтесь на связи',
+        'Social'=>'Социальные сети'
+    ];
+?>
