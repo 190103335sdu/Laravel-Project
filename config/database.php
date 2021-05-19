@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,14 +65,14 @@ return [
         ],
 
         'pgsql' => [
-            'driver' => 'pgsql',
+            'driver' => 'url' => env('DATABASE_URL'),
             //'url' => env('DATABASE_URL'),
-            'host' => $DATABASE_URL["host"],
+            'host' => env('DB_HOST', '127.0.0.1'),
             //env('DB_HOST', '127.0.0.1'),
-            'port' => $DATABASE_URL["port"],//env('DB_PORT', '5432'),
-            'database' => ltrim($DATABASE_URL["path"],"/"),//env('DB_DATABASE', 'forge'),
-            'username' => $DATABASE_URL["user"],//env('DB_USERNAME', 'forge'),
-            'password' => $DATABASE_URL["pass"],//env('DB_PASSWORD', ''),
+            'port' => env('DB_PORT', '5432'),//env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'forge',//env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),//env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),//env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
