@@ -107,13 +107,13 @@
                                 <ul class="products">
                                     @foreach ($products as $product)
                                     <li class="product">
-                                        <a href="single-product.html">
+                                        <a href="{{route('product.show', $product->id)}}">
                                             <img width="325" height="325" alt="T_4_front" class="attachment-shop_catalog wp-post-image" src="{{URL::asset('/storage/'.$product->cover_img)}}">
                                             <h3>{{$product->name}}</h3>
                                             <span class="price"><span class="amount">${{$product->price}}</span></span>
                                         </a>
 
-                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="single-product.html">Select options</a>
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="22" rel="nofollow" href="{{route('product.show', $product->id)}}">{{__('See details')}}</a>
                                     </li>
                                     @endforeach
 

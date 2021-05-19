@@ -27,18 +27,8 @@ Route::get('locale/{locale}', function ($locale){
 Route::get('/', function () {
     return Redirect::to('home');
 });
-Route::get('/ada', function () {
- return Redirect::to('home')->with('message','Request sent');
-});
-
-
 
 Auth::routes();
-/*Route::get('/admin',[UploadController::class,'uploadForm']);
-Route::post('/admin',[UploadController::class,'uploadSubmit']);*/
-
-/*Route::get('/send',[MailController::class,'send']);*/
-
 Route::get('/home', [HomeController::class,'index'])->name('home');
 Route::get('/add-to-cart/{product}', [CartController::class,'add'])->name('cart.add')->middleware('auth');
 Route::get('/cart', [CartController::class,'index'])->name('cart.index')->middleware('auth');

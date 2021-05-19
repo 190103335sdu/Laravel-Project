@@ -54,8 +54,8 @@ class ShopController extends Controller
             $q->where('name','admin');
         })->get();
         Mail::to($admin)->send(new ShopCreateRequest($shop));
-
-        return redirect('home')->withMessage('Request sent');
+        echo 'Request sent';
+        return redirect('home');
     }
 
     /**
